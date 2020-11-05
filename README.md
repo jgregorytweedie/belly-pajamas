@@ -4,10 +4,12 @@
     - navigation partial
 - Jina
     - features
-    - header partial
+    
 - Patrick
     - contact
     - footer partial
 - Jayden
     - shop
     - contact form partial
+- Kevin
+    - header partial
