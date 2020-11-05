@@ -4,11 +4,13 @@ const ejs = require('ejs');
 
 const app = express();
 
+app.set('view engine', 'ejs');
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(request, response){
 
-
+  response.render('pages/index',{})
 });
 
 app.get('/features', function(request, response){
