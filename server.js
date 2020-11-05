@@ -27,7 +27,7 @@ app.get('/shop', function(request, response){
 
 });
 
-app.get('/', function(request, response){
+app.get('/contact', function(request, response){
   // Patrick
   response.render('pages/contact',
   {
