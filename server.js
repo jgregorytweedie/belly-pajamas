@@ -27,8 +27,14 @@ app.get('/shop', function(request, response){
 
 });
 
-app.get('/contact', function(request, response){
+app.get('/', function(request, response){
   // Patrick
+  response.render('pages/contact',
+  {
+    title: "Belly Pajamas", 
+    tagline: "Midriff PJs for the Aging Gentleman"
+  })
+});
 
 });
 
