@@ -9,22 +9,26 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(request, response){
-
-  response.render('pages/index',{})
+  // Tony
+  response.render('pages/index',
+    {
+      title: "Belly Pajamas", 
+      tagline: "Midriff PJs for the Aging Gentleman"
+    })
 });
 
 app.get('/features', function(request, response){
-
+  // Jina
 
 });
 
 app.get('/shop', function(request, response){
-
+  // Jayden
 
 });
 
 app.get('/contact', function(request, response){
-
+  // Patrick
 
 });
 
