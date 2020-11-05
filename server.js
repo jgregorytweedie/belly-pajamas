@@ -36,7 +36,7 @@ app.get('/', function(request, response){
   })
 });
 
-});
+
 
 app.use(function(req, res) {
   res.status(404);
